@@ -1,7 +1,9 @@
 # AMAL_TP2
+Architecture API Gateway et Microservices Parallèles DeepSeek
+📋 Vue d'ensembleCe document présente une analyse technique approfondie de l'architecture DeepSeek, en se concentrant sur deux aspects critiques :
 
-Ce rapport propose une étude détaillée de l’architecture microservices de la plateforme DeepSeek, en mettant l’accent sur la modélisation UML de l’API Gateway, l’organisation du traitement parallèle et les pistes d’amélioration architecturale. 
-L’analyse s’appuie sur des diagrammes UML standardisés pour représenter la structure statique (classes, composants, packages) ainsi que le comportement dynamique (séquences, activités, états) du système. L’objectif principal est d’identifier et de concevoir une architecture parallèle optimale, favorisant à la fois la scalabilité horizontale et l’efficacité du traitement des requêtes IA.
+L'API Gateway comme point d'entrée centralisé du système
+L'architecture microservices parallèle pour le traitement distribué des requêtes IA
 
 #Architecture Gateway API Standard
 
