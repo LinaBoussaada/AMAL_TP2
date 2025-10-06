@@ -9,7 +9,7 @@ Ce document présente une analyse technique approfondie de l'architecture DeepSe
 
 ---
 
-#Architecture Gateway API Standard
+## 🔷Architecture Gateway API Standard
 
 Avant d’aborder l’architecture API Gateway de DeepSeek, nous allons d’abord présenter l’architecture API Gateway standard.
 <img width="818" height="500" alt="image" src="https://github.com/user-attachments/assets/94f3d8c9-16bd-43e7-8fdc-024625534003" />
