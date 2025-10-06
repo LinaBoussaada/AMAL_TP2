@@ -22,6 +22,11 @@ Complexité de gestion : configuration et maintenance plus lourdes.
 Coût en ressources : consommation accrue de mémoire et CPU.
 
 Risque de goulot d’étranglement : si la Gateway n’est pas bien dimensionnée.
+
+#Remarque :
+L’architecture présentée ci-dessus est une représentation conceptuelle inspirée des principes généralement utilisés par DeepSeek. Elle n’est pas officiellement confirmée par l’entreprise, mais illustre de manière plausible l’organisation d’un système basé sur une API Gateway.
+De plus, plusieurs éléments du schéma (tels que Response Cache, Knowledge Base / RAG System ou Inference Router) sont cohérents avec ce type d’architecture, mais ne sont pas explicitement mentionnés dans la documentation publique disponible.
+
 #Architecture Parallele
 <img width="528" height="413" alt="image" src="https://github.com/user-attachments/assets/8e51db4b-6cb8-4aa0-8cb1-b72ec8daeddb" />
 
