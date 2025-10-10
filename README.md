@@ -14,14 +14,18 @@ Ce document présente une analyse technique approfondie de l'architecture DeepSe
 Avant d’aborder l’architecture API Gateway de DeepSeek, nous allons d’abord présenter l’architecture API Gateway standard.
 <img width="818" height="500" alt="image" src="https://github.com/user-attachments/assets/94f3d8c9-16bd-43e7-8fdc-024625534003" />
 Cette architecture illustre un schéma classique d’API Gateway, qui centralise les échanges entre clients (web, mobile, applications) et microservices (authentification, limitation du trafic, facturation, inférence, etc.). Les clusters de traitement (ex. GPU pour l’IA) et les composants comme le cache de réponse ou la base de connaissances optimisent performance et rapidité.
+
 ## 🔷Architecture Gateway API - Deepssek
 <img width="1268" height="757" alt="DEEPSEEK ARCHI" src="https://github.com/user-attachments/assets/2d01c627-3b99-403e-ad81-a4ecaac49e15" />
 
 ### Composants principaux de la Gateway
 
 #### 1. Couche d'entrée (Client Layer)
+
 - **Clients multiples** : Web, Mobile, Applications tierces
+  
 - **Point d'accès unique** : Toutes les requêtes transitent par l'API Gateway
+  
 - **Protocoles supportés** : REST, WebSocket, gRPC
 
 #### 2. API Gateway (Orchestrateur central)
