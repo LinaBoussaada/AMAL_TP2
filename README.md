@@ -55,12 +55,21 @@ Mais apres notre discussion avec Chatgpt et Claude on a trouvé qu'elle n'a pas 
 
 ## 🔷Architecture Parallele
 <img width="528" height="413" alt="image" src="https://github.com/user-attachments/assets/8e51db4b-6cb8-4aa0-8cb1-b72ec8daeddb" />
+
 ## 🔷Mecanisme de Fallback Intelligent
 Le syst`eme de fallback Alibaba Cloud surveille en temps r ́eel :
 — Charge CPU : Seuil de 80% de saturation
 — Utilisation m ́emoire : Limite `a 85% de la capacit ́e
 — Temps de r ́eponse : Alerte si ¿ 2 secondes
 — Taux d’erreur : Basculement si ¿ 5% d’erreurs
+## 🔷Mecanisme de Basculement Automatique
+<img width="542" height="319" alt="image" src="https://github.com/user-attachments/assets/28599b83-b11b-4aec-8b46-380e03966433" />
+## Avantages de l’Architecture Parall`ele
+— Haute Disponibilit ́e : Redondance compl`ete des services
+— Performance Optimis ́ee : Processeurs d ́edi ́es par service
+— Scalabilit ́e Horizontale : Ajout facile de nouveaux serveurs
+— R ́esilience : Basculement automatique en cas de d ́efaillance
+— Maintenance Sans Interruption : Mise `a jour altern ́ee des serveurs
 
 ## Contributeurs
 
