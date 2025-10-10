@@ -60,7 +60,8 @@ Mais apres notre discussion avec Chatgpt et Claude on a trouvé qu'elle n'a pas 
 🏗️ Architecture Parallèle
 Notre système repose sur une architecture parallèle conçue pour assurer une haute disponibilité et une scalabilité optimale.
 
-https://github.com/user-attachments/assets/8e51db4b-6cb8-4aa0-8cb1-b72ec8daeddb
+<img width="492" height="411" alt="image" src="https://github.com/user-attachments/assets/eabe776b-bb11-4b92-832a-96df47eb1f91" />
+
 
 🛡️ Mécanisme de Fallback Intelligent
 Le système de fallback Alibaba Cloud assure une surveillance en temps réel avec les seuils suivants :
@@ -76,7 +77,8 @@ Temps de réponse : Alerte si > 2 secondes
 Taux d'erreur : Basculement automatique si > 5%
 
 ⚡ Mécanisme de Basculement Automatique
-https://github.com/user-attachments/assets/28599b83-b11b-4aec-8b46-380e03966433
+<img width="450" height="272" alt="image" src="https://github.com/user-attachments/assets/4cfa2dc2-ccd4-4642-ba96-55e86aee6906" />
+
 
 ✨ Avantages de l'Architecture Parallèle
 🔄 Haute Disponibilité
