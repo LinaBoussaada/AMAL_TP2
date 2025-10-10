@@ -69,11 +69,11 @@ Le syst`eme de fallback Alibaba Cloud surveille en temps r ́eel :
 ## 🔷Mecanisme de Basculement Automatique
 <img width="542" height="319" alt="image" src="https://github.com/user-attachments/assets/28599b83-b11b-4aec-8b46-380e03966433" />
 ## Avantages de l’Architecture Parall`ele
-— Haute Disponibilit ́e : Redondance compl`ete des services
-— Performance Optimis ́ee : Processeurs d ́edi ́es par service
-— Scalabilit ́e Horizontale : Ajout facile de nouveaux serveurs
-— R ́esilience : Basculement automatique en cas de d ́efaillance
-— Maintenance Sans Interruption : Mise `a jour altern ́ee des serveurs
+Haute Disponibilite : Redondance complete des services
+ Performance Optimis ́ee : Processeurs d ́edi ́es par service
+ Scalabilit ́e Horizontale : Ajout facile de nouveaux serveurs
+Resilience : Basculement automatique en cas de d ́efaillance
+Maintenance Sans Interruption : Mise `a jour altern ́ee des serveurs
 
 ## Contributeurs
 
