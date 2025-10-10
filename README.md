@@ -57,31 +57,59 @@ L'API Gateway assure plusieurs fonctions critiques :
 Cette architecture représente une modélisation conceptuelle basée sur les meilleures pratiques du domaine et les patterns architecturaux observés dans les systèmes d'IA à grande échelle. 
 Mais apres notre discussion avec Chatgpt et Claude on a trouvé qu'elle n'a pas été officiellement confirmée par DeepSeek, mais illustre une approche plausible et optimisée pour ce type de plateforme.
 
-## 🔷Architecture Parallele
-<img width="528" height="413" alt="image" src="https://github.com/user-attachments/assets/8e51db4b-6cb8-4aa0-8cb1-b72ec8daeddb" />
+🏗️ Architecture Parallèle
+Notre système repose sur une architecture parallèle conçue pour assurer une haute disponibilité et une scalabilité optimale.
 
-## 🔷Mecanisme de Fallback Intelligent
-Le syst`eme de fallback Alibaba Cloud surveille en temps r ́eel :
-— Charge CPU : Seuil de 80% de saturation
-— Utilisation m ́emoire : Limite `a 85% de la capacit ́e
-— Temps de r ́eponse : Alerte si ¿ 2 secondes
-— Taux d’erreur : Basculement si ¿ 5% d’erreurs
-## 🔷Mecanisme de Basculement Automatique
-<img width="542" height="319" alt="image" src="https://github.com/user-attachments/assets/28599b83-b11b-4aec-8b46-380e03966433" />
-## Avantages de l’Architecture Parall`ele
-Haute Disponibilite : Redondance complete des services
- Performance Optimis ́ee : Processeurs d ́edi ́es par service
- Scalabilit ́e Horizontale : Ajout facile de nouveaux serveurs
-Resilience : Basculement automatique en cas de d ́efaillance
-Maintenance Sans Interruption : Mise `a jour altern ́ee des serveurs
+https://github.com/user-attachments/assets/8e51db4b-6cb8-4aa0-8cb1-b72ec8daeddb
 
-## Contributeurs
+🛡️ Mécanisme de Fallback Intelligent
+Le système de fallback Alibaba Cloud assure une surveillance en temps réel avec les seuils suivants :
 
-| Nom & Prénom |
-|--------------|
-| Lina Boussaada |
-| Mariem Trabelsi | 
+🔍 Métriques de Surveillance :
 
----
+Charge CPU : Seuil d'alerte à 80%
 
-*Document technique sur l'architecture DeepSeek, maintenu par l'équipe système.*
+Utilisation mémoire : Limite à 85% de la capacité totale
+
+Temps de réponse : Alerte si > 2 secondes
+
+Taux d'erreur : Basculement automatique si > 5%
+
+⚡ Mécanisme de Basculement Automatique
+https://github.com/user-attachments/assets/28599b83-b11b-4aec-8b46-380e03966433
+
+✨ Avantages de l'Architecture Parallèle
+🔄 Haute Disponibilité
+
+Redondance complète de tous les services critiques
+
+⚡ Performance Optimisée
+
+Allocation dédiée de processeurs par service
+
+Répartition intelligente de la charge
+
+📈 Scalabilité Horizontale
+
+Ajout transparent de nouveaux serveurs
+
+Extension flexible selon la demande
+
+🛡️ Résilience
+
+Basculement automatique en cas de défaillance
+
+Continuité de service assurée
+
+🔧 Maintenance Sans Interruption
+
+Mise à jour alternée des serveurs
+
+Aucun impact sur la disponibilité
+
+👥 Contributeurs
+Nom & Prénom
+Lina Boussaada
+Mariem Trabelsi
+Document technique sur l'architecture DeepSeek, maintenu par l'équipe système.
+
