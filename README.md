@@ -55,7 +55,12 @@ Mais apres notre discussion avec Chatgpt et Claude on a trouvé qu'elle n'a pas 
 
 ## 🔷Architecture Parallele
 <img width="528" height="413" alt="image" src="https://github.com/user-attachments/assets/8e51db4b-6cb8-4aa0-8cb1-b72ec8daeddb" />
-
+## 🔷Mecanisme de Fallback Intelligent
+Le syst`eme de fallback Alibaba Cloud surveille en temps r ́eel :
+— Charge CPU : Seuil de 80% de saturation
+— Utilisation m ́emoire : Limite `a 85% de la capacit ́e
+— Temps de r ́eponse : Alerte si ¿ 2 secondes
+— Taux d’erreur : Basculement si ¿ 5% d’erreurs
 
 ## Contributeurs
 
