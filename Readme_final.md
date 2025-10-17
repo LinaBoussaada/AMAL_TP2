@@ -1,23 +1,23 @@
-DeepSeek Architecture Analysis
-Overview
+# DeepSeek Architecture Analysis
+## Overview
 This document provides a hypothetical analysis of the DeepSeek architecture, designed as a scalable, resilient, and modular distributed system for AI-driven applications. The architecture is structured into layers, each addressing specific system requirements, from client interaction to backend AI processing.
-Architecture Diagram
+## Architecture Diagram
 The architecture is organized into functional groups, as illustrated below:
 <img width="693" height="509" alt="image" src="https://github.com/user-attachments/assets/22f8c527-e363-4e22-a620-d4208782cdf0" />
 
 
-Team Observations
+### Team Observations
 
 The current inference service performs well for known responses.
 Limitations arise when the model encounters unknown queries.
 No technical blockers identified; this is an opportunity for improvement.
 
-Proposed Solution: Add Deep Learning Service
+## Proposed Solution: Add Deep Learning Service
 A new Deep Learning service is proposed to enhance the inference engine's ability to handle unknown queries. The updated architecture groups services functionally:
 <img width="627" height="443" alt="image" src="https://github.com/user-attachments/assets/5e2a7fb5-1e22-443b-a178-6201ee03d847" />
 
 
-How It Works
+## How It Works
 
 
 
@@ -71,14 +71,14 @@ Centralized management of rules (auth, quotas, monitoring).
 Strong service coupling complicates evolution.
 
 
-Gateway Architecture Improvements
+# Gateway Architecture Improvements
 The current single-gateway architecture introduces a single point of failure (SPOF). Two solutions are proposed:
-Option 1: Gateway with Fallback
+## Option 1: Gateway with Fallback
 <img width="629" height="554" alt="image" src="https://github.com/user-attachments/assets/61478d3b-147b-40aa-b2ff-fa0ff9ce8f7a" />
 
 A primary gateway with a fallback service improves fault tolerance. Traffic routes to Server 1 under normal conditions, switching to Server 2 or a cloud-based fallback service during failures.
 Advantages: Simple, cost-effective.Limitations: No load balancing, failover delay.
-Option 2: Multi-Gateway with Load Balancer
+## Option 2: Multi-Gateway with Load Balancer
 <img width="672" height="525" alt="image" src="https://github.com/user-attachments/assets/60a10192-4eae-43bf-aa33-ab86467132af" />
 
 Multiple gateways operate in parallel behind a load balancer, distributing traffic and redirecting during failures.
@@ -86,7 +86,7 @@ Advantages: High availability, load balancing.Limitations: More complex configur
 Migration to Parallel Architecture
 <img width="676" height="545" alt="image" src="https://github.com/user-attachments/assets/b8f1af8c-19b6-4875-b21d-ee5de54ed9e5" />
 
-The parallel architecture maximizes throughput and resilience using:
+# The parallel architecture maximizes throughput and resilience using:
 
 Intelligent Load Balancer: Dynamically distributes load based on real-time capacity.
 Maximized Parallelism: Uses connection pools and non-blocking queues.
@@ -94,7 +94,7 @@ Reduced Scheduling Overhead: Leverages Kubernetes namespaces and predictive reso
 Optimized Server Images: Lightweight containers and intelligent caching reduce latency.
 Resource Management: Real-time CPU/GPU monitoring, horizontal auto-scaling, and circuit breakers prevent overload.
 
-Proposed Architecture – DeepSeek Distributed System
+# Proposed Architecture – DeepSeek Distributed System
 <img width="907" height="708" alt="our1" src="https://github.com/user-attachments/assets/a9dc8baf-7bcd-42b9-9c14-e9a5b815baae" />
 
 The proposed architecture is a distributed, modular system designed for scalability, resilience, and real-time performance.
