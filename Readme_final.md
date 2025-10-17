@@ -56,6 +56,9 @@ Response provided after learning.
 
 
 Interpretations
+# warning 
+When deep learning provides a solution, it should be reviewed by the inference system.
+A reasoning or expert system must be integrated to ensure the solution is logical.
 
 
 
