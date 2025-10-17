@@ -96,6 +96,7 @@ Advantages: Simple, cost-effective.Limitations: No load balancing, failover dela
 Multiple gateways operate in parallel behind a load balancer, distributing traffic and redirecting during failures.
 
 Advantages: High availability, load balancing.
+
 Limitations: More complex configuration.
 
 # Migration to Parallel Architecture
