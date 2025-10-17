@@ -3,6 +3,7 @@
 This document provides a hypothetical analysis of the DeepSeek architecture, designed as a scalable, resilient, and modular distributed system for AI-driven applications. The architecture is structured into layers, each addressing specific system requirements, from client interaction to backend AI processing.
 ## Architecture Diagram
 The architecture is organized into functional groups, as illustrated below:
+
 <img width="693" height="509" alt="image" src="https://github.com/user-attachments/assets/22f8c527-e363-4e22-a620-d4208782cdf0" />
 
 
@@ -16,6 +17,7 @@ No technical blockers identified; this is an opportunity for improvement.
 
 ## Proposed Solution: Add Deep Learning Service
 A new Deep Learning service is proposed to enhance the inference engine's ability to handle unknown queries. The updated architecture groups services functionally:
+
 <img width="627" height="443" alt="image" src="https://github.com/user-attachments/assets/5e2a7fb5-1e22-443b-a178-6201ee03d847" />
 
 
