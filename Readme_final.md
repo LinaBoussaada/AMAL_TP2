@@ -9,7 +9,9 @@ The architecture is organized into functional groups, as illustrated below:
 ### Team Observations
 
 The current inference service performs well for known responses.
+
 Limitations arise when the model encounters unknown queries.
+
 No technical blockers identified; this is an opportunity for improvement.
 
 ## Proposed Solution: Add Deep Learning Service
