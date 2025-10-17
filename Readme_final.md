@@ -19,7 +19,8 @@ No technical blockers identified; this is an opportunity for improvement.
 ## Proposed Solution: Add Deep Learning Service
 A new Deep Learning service is proposed to enhance the inference engine's ability to handle unknown queries. The updated architecture groups services functionally:
 
-<img width="627" height="443" alt="image" src="https://github.com/user-attachments/assets/5e2a7fb5-1e22-443b-a178-6201ee03d847" />
+<img width="743" height="526" alt="image" src="https://github.com/user-attachments/assets/b4470966-2c7f-4859-bdb6-4c8feafee144" />
+
 
 
 ## How It Works
