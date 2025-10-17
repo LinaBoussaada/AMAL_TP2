@@ -4,7 +4,8 @@ This document provides a hypothetical analysis of the DeepSeek architecture, des
 ## Architecture Diagram
 The architecture is organized into functional groups, as illustrated below:
 
-<img width="693" height="509" alt="image" src="https://github.com/user-attachments/assets/22f8c527-e363-4e22-a620-d4208782cdf0" />
+<img width="691" height="502" alt="image" src="https://github.com/user-attachments/assets/574d8643-569b-4112-a578-bcd2e758096e" />
+
 
 
 ### Team Observations
