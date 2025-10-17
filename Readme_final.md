@@ -63,26 +63,30 @@ Interpretations
 
 
 
-Simplicity: Single entry point for all requests.
-Single point of failure (SPOF) risks system downtime.
+✅ Simplicity: Single entry point for all requests.
+
+❌ Single point of failure (SPOF) risks system downtime.
 
 
-Easy deployment and maintenance.
-Limited scalability due to centralized processing.
+✅ Easy deployment and maintenance.
+
+❌ Limited scalability due to centralized processing.
 
 
-Centralized management of rules (auth, quotas, monitoring).
-Strong service coupling complicates evolution.
+✅ Centralized management of rules (auth, quotas, monitoring).
+❌ Strong service coupling complicates evolution.
 
 
 # Gateway Architecture Improvements
 The current single-gateway architecture introduces a single point of failure (SPOF). Two solutions are proposed:
 ## Option 1: Gateway with Fallback
+
 <img width="629" height="554" alt="image" src="https://github.com/user-attachments/assets/61478d3b-147b-40aa-b2ff-fa0ff9ce8f7a" />
 
 A primary gateway with a fallback service improves fault tolerance. Traffic routes to Server 1 under normal conditions, switching to Server 2 or a cloud-based fallback service during failures.
 Advantages: Simple, cost-effective.Limitations: No load balancing, failover delay.
 ## Option 2: Multi-Gateway with Load Balancer
+
 <img width="672" height="525" alt="image" src="https://github.com/user-attachments/assets/60a10192-4eae-43bf-aa33-ab86467132af" />
 
 Multiple gateways operate in parallel behind a load balancer, distributing traffic and redirecting during failures.
